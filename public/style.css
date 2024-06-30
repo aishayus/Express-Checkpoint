@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:white;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    box-shadow: 0 0 4px 4px rgb(151, 88, 17);
+    background-color: rgb(223, 125, 13);
+}
+
+.nav-title{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list li{
+    font-size: 18px;
+    padding: 20px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+
+#Home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Home1 Home2";
+}
+
+.Home1{
+    grid-area: Home1;
+    margin: 20px;
+    box-shadow: 0 0 4px 4px rgb(151, 88, 17);
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Home2{
+    grid-area: Home2;
+    padding: 0 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    color: rgb(223, 125, 13);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#ourServices{
+    height: 60vh;
+    box-shadow: 0 0 4px 4px rgb(151, 88, 17);
+    background-color:  rgb(223, 125, 13);
+    margin: 60px 50px;
+    color: white;
+    text-align: center;
+}
+
+#ourServices h1{
+    font-size: 40px;
+    padding: 30px;
+}
+
+#ourServices p{
+    font-size: 15px;
+    padding: 0 40px;
+}
+
+form{
+    margin: 50px 100px;
+    background-color:  rgb(223, 125, 13);
+    box-shadow: 0 0 4px 4px rgb(151, 88,17);
+    padding: 20px;
+    text-align: center;
+}
+
+form h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+form label{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+form input{
+    margin: 10px;
+    color: rgb(223, 125, 13);
+    height: 40px;
+    width: 320px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.message{
+    height: 200px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    color: rgb(223, 125, 13);
+    padding: 20px;
+}
